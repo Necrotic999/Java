@@ -1,2 +1,5 @@
 com\lab\variant\FurnitureServlet.class
+com\lab\variant\FurnitureService.class
+com\lab\variant\FurnitureService$1.class
 com\lab\variant\Furniture.class
+com\lab\variant\utils\FileUtil.class
