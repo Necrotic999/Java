@@ -1,0 +1,5 @@
+INSERT INTO museums (name, city, country, description, image_url, year_founded) VALUES
+                                                                                             ('Лувр', 'Париж', 'Франція', 'Найвідоміший музей мистецтва у світі', 'https://faktypro.com.ua/uploads/img/25-cikavih-faktiv-pro-luvr.jpg', '1793'),
+                                                                                             ('Британський музей', 'Лондон', 'Велика Британія', 'Музей людської історії та культури', 'https://fs02.vseosvita.ua/0201lejt-0454-1200x630.jpg',  '1753'),
+                                                                                             ('Метрополітен-музей', 'Нью-Йорк', 'США', 'Один з найбільших музеїв США', 'https://duflu.org.ua/wp-content/uploads/2026/04/metropoliten-muzej.jpg',  '1870'),
+                                                                                             ('Музей Ватикану', 'Ватикан', 'Ватикан', 'Місце зберігання шедеврів Відродження', 'https://italiatut.com/wp-content/uploads/4227229740_4cb6ffc06d_b-800x534.jpg',  '1506');
