@@ -1,9 +1,10 @@
 package com.lab.lab4;
 
-import com.lab.lab4.Museum;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
-@Repository
+@RepositoryRestResource(collectionResourceRel = "museums", path = "museums")
+@CrossOrigin(origins = "*")
 public interface MuseumRepository extends JpaRepository<Museum, Long> {
 }

@@ -1,6 +1,6 @@
 package com.lab.lab4;
 
-import com.lab.lab4.Museum;
+/* import com.lab.lab4.Museum;
 import com.lab.lab4.MuseumService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -43,4 +43,4 @@ public class MuseumController {
         service.deleteMuseum(id);
         return ResponseEntity.noContent().build();
     }
-}
+} */
