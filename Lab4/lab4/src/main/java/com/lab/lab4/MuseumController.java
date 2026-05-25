@@ -2,12 +2,14 @@ package com.lab.lab4;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @Slf4j
 @RestController
+@PreAuthorize("isAuthenticated()")
 @RequestMapping("/api/museums")
 @CrossOrigin(origins = "*")
 public class MuseumController {
